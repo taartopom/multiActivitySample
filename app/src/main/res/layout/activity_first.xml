@@ -25,5 +25,41 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintTop_toBottomOf="@+id/btn_open_activity"/>
 
+    <Button
+        android:id="@+id/btn_go_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGoHome"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_result"
+        />
+    <Button
+        android:id="@+id/btn_go_browse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGoBrowse"
+        app:layout_constraintTop_toBottomOf="@+id/btn_go_home"
+        />
+    <Button
+        android:id="@+id/btn_calculator_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculatorOne"
+        app:layout_constraintTop_toBottomOf="@+id/btn_go_browse"
+        />
+    <Button
+        android:id="@+id/btn_calculator_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculatorTwo"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calculator_one"
+        />
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCall"
+        app:layout_constraintTop_toBottomOf="@+id/btn_calculator_two"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

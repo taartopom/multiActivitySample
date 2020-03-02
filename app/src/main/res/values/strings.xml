@@ -2,4 +2,9 @@
     <string name="app_name">MultiActivitySample</string>
     <string name="btnOpenActivity">Open Second Activity</string>
     <string name="btnCloseActivity">Close activity</string>
+    <string name="btnGoHome">Go home</string>
+    <string name="btnGoBrowse">Browse</string>
+    <string name="btnCalculatorOne">Calcultator one</string>
+    <string name="btnCalculatorTwo">Calculator two</string>
+    <string name="btnCall">Call</string>
 </resources>
